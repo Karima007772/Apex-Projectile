@@ -5,9 +5,9 @@
 using namespace std;
 
 int main(
-    
-    cout << "epan jogang";
-    cout << "epan jogang";
 
+    cout << "epan jogang";
+    cout << "epan jogang";
+    cout << "epan jogang";
     return 0; 
 )  
