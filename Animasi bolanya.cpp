@@ -2,8 +2,8 @@
 #include <chrono>
 using namespace std;
 
-void gerakanbola(int x, int y) {                     //1. y : nomor baris         2. H = kek pindahin kursor ke sini
-    cout << "\033[" << y << ";" << x << "H";    //3. x : nomor kolom         4. ; = pemisah antara baris dan kolom
+void gerakanbola(int x, int y) {                 //1. y : nomor baris         2. H = kek pindahin kursor ke sini
+    cout << "\033[" << y << ";" << x << "H";    //3. x : nomor kolom          4. ; = pemisah antara baris dan kolom
 }//nanti jadi \033[y;xH ,jadi kek perintah pindahin kursor ke baris y kolom x
 
 void hapus() {
