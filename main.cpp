@@ -1,11 +1,12 @@
 #include "obstacle.cpp"
+#include "debris.cpp"
 #include <iostream>
+#include <chrono>
+#define HEIGHT 20
+#define WIDTH 70
 
-using namespace std;
-char screen[HEIGHT][WIDTH];
-
-int main(){
-
+int main() {  
+    
 
     return 0; 
-} 
+}
